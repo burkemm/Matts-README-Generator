@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #272829;
+    color: #ffffff;
+}
+
+ .header h1 {
+    display: inline-block;
+    font-size: 38px;
+    background-color: #4c5397;
+    color: #a9afeb;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ .header div ul li {
+    border-bottom: 2px solid #a9afeb;
+    
+    display: inline-block;
+    margin-left: 25px;
+} 
+
+a {
+    color: #a9afeb;
+    text-decoration: none;
+}
+
+body {
+    background-color: #a9afeb;
+    height: 1750px;
+}
+
+.stars {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Stars.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-content{
+    line-height: 2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #0d0536;
+}
+
+.about-me{
+    justify-content: space-around;
+    display: flex;
+}
+
+.content-about{
+    margin-right: 300px;
+    border-left: 5px solid rgb(82, 69, 199);
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+ }
+
+ .about-item{
+    text-indent: 50px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 33px;
+ }
+
+ .my-work{
+    justify-content: space-around;
+    display: flex;
+}
+
+.content-work{
+    margin-right: 292px;
+    border-left: 5px solid rgb(82, 69, 199);
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+ }
+
+ .work-item{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me{
+    justify-content: space-around;
+    display: flex;
+}
+
+.content-contact{
+    margin-right: 315px;
+    border-left: 5px solid rgb(82, 69, 199);
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    padding: 20px;
+ }
+
+ .contact-item{
+    font-size: 25px;
+    margin-top: 28px;
+ }
+
+ .my-resume{
+    justify-content: space-around;
+    display: flex;
+}
+
+.content-resume{
+    margin-right: 137px;
+    border-left: 5px solid rgb(82, 69, 199);
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+ }
+
+ .resume-item{
+    font-size: 25px;
+    margin-top: 28px;
+    margin-left: 5px;
+ }
+
+ @media screen and (max-width: 992px) {
+    body {
+      background-color: #189e35;
+    }
+  }
