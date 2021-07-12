@@ -142,7 +142,6 @@ ${license}
 ${contribution}
 ## Tests
 ${tests}
-
 ## Questions
 'This is my contact information!'
 * Github : ${git}
