@@ -8,7 +8,7 @@
 * [Tests](#tests)
 * [Questions](#questions)
 ## Description
-This is a README file generator used for various projects.
+This is a README file generator used for various projects. I learned how to create README generator in this exercise. This allwos me to have a README generator on all my work going forward now.
 ## Installation
 no instructions at this time.
 ## Usage
@@ -18,6 +18,9 @@ Apache License
 ## Contribution
 no guidelines at this time.
 ## Tests
+
+Direct link to video demo<BR />
+(https://drive.google.com/file/d/1TorKcJmc_ZOmJgRMqyFttcgM181SkIHN/view?usp=sharing)
 
 Screenshot of Terminal<BR />
 ![Matt's README Generator Screenshot](Matts-README-Generator.PNG)
